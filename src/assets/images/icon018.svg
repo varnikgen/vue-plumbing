@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   data-name="Capa 1"
+   viewBox="0 0 32.025002 25.809"
+   version="1.1"
+   sodipodi:docname="icon018.svg"
+   width="32.025002"
+   height="25.809"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>but1453</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview32"
+     showgrid="false"
+     inkscape:zoom="4.5685727"
+     inkscape:cx="0.053173161"
+     inkscape:cy="7.1649316"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_1" />
+  <defs
+     id="defs25">
+    <style
+       id="style23">.cls-1{fill:#13948d;}</style>
+  </defs>
+  <title
+     id="title27">but1453</title>
+  <path
+     class="cls-1"
+     d="m 3.05,23.60945 v -3.8 h 13 v 3.8 c 0,1.4 -0.7,2.2 -2.4,2.2 h -8.2 c -1.4,-0.1 -2.3,-0.8 -2.4,-2.2 z m 1.4,-6.4 v 0 l 1.6,-0.7 0.7,-6 c 0.2,-1.1000004 0,-1.6000004 -0.7,-1.6000004 h -3.2 c -0.8,0.1 -1.8,-0.4 -2.4,-1.7 -0.6,-1.8 -0.6,-3.7 0,-5.4 0.5,-1.20000004 1.5,-1.90000004 2.4,-1.80000004 h 13.3 c 0.6,0 1.1,0.1 1.6,0.4 l 3.3,1.60000004 v 5 l -3.4,1.6 c -0.4,0.2 -1,0.3 -1.6,0.3 h -2 c -0.8,0 -1.2,0.3 -1.3,0.8 V 10.20945 c 0.4,0.1 0.7,0.4 0.8,0.8 v 2.2 c 0,0.5 -0.5,0.8 -1.2,1.1 l -0.2,1.6 c -0.1,0.8 0.3,1.3 1.1,1.4 l 1.7,0.4 c 0.9,0.3 1.2,0.6 1.2,1.2 H 3.05 c 0,-1 0.4,-1.3 1.4,-1.7 z M 22.05,6.9094496 v 0 -5 h 2.3 c 0.5,0.1 1,0.3 1.5,0.6 l 2.2,1.5 h 3.6 c 0.5,0 0.5,1 0,1 h -3.6 l -2.3,1.5 c -0.4,0.3 -0.9,0.5 -1.4,0.5 z"
+     id="path29" />
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   data-name="Capa 1"
+   viewBox="0 0 330.17 512"
+   version="1.1"
+   sodipodi:docname="icon3.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata115">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>but210</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview113"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.20751953"
+     inkscape:cx="-1719.4452"
+     inkscape:cy="-63.261511"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_1" />
+  <defs
+     id="defs104">
+    <style
+       id="style102">.cls-1{fill:#13948d;}</style>
+  </defs>
+  <title
+     id="title106">but210</title>
+  <path
+     class="cls-1"
+     d="M226,293.58a164.28,164.28,0,0,1-30-2.76L177.67,512H334.33L316.05,290.82a165.16,165.16,0,0,1-30,2.76Z"
+     id="path108"
+     transform="translate(-90.91 0)" />
+  <path
+     class="cls-1"
+     d="M90.91,124.5v5c0,74.48,60.6,135.07,135.07,135.07h60c74.47,0,135.07-60.59,135.07-135.07v-5h-95.5V95h-30V124.5H272V55a25,25,0,1,1,50,0V65h30V55a55,55,0,0,0-110,0V124.5H220V95H190V124.5Z"
+     id="path110"
+     transform="translate(-90.91 0)" />
+</svg>
