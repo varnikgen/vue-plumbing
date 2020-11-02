@@ -233,17 +233,17 @@
                 <div class="left-ads-display col-lg-9">
                     <div class="row">
                         <div class="desc1-left col-md-6">
-<!--                            <img src="../assets/images/images.jpeg" class="img-fluid" alt="">-->
+                            <!--                            <img src="../assets/images/images.jpeg" class="img-fluid" alt="">-->
                         </div>
                         <div class="desc1-right col-md-6 pl-lg-4">
-                            <h3 class="editContent">
-                                ТЕРМИНАТОР: ТЕМНЫЕ СУДЬБЫ</h3>
-                            <h5 class="editContent">Terminator: Dark Fate</h5>
+                            <h3 class="editContent">{{product.name}}</h3>
+                            <h5 class="editContent">{{ product.description }}</h5>
                             <ul>
                                 <li class="li-product"><span><b>Год:</b> 2019</span></li>
                                 <li class="li-product"><span><b>Страна:</b> США, Китай</span>
                                 </li>
-                                <li class="li-product"><span><b>Слоган:</b> «Welcome to the Day after Judgment Day»</span>
+                                <li class="li-product">
+                                    <span><b>Слоган:</b> «Welcome to the Day after Judgment Day»</span>
                                 </li>
                                 <li class="li-product">
                                     <span><b>Режиссер:</b> Тим Миллер</span></li>
@@ -284,17 +284,17 @@
                                         <ul class="w3layouts_social_list list-unstyled">
                                             <li>
                                                 <a href="#" class="w3pvt_facebook editContent">
-                                                <span class="fa fa-facebook-f"></span>
+                                                    <span class="fa fa-facebook-f"></span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" class="w3pvt_twitter editContent">
-                                                <span class="fa fa-twitter"></span>
+                                                    <span class="fa fa-twitter"></span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" class="w3pvt_dribble editContent">
-                                                <span class="fa fa-dribbble"></span>
+                                                    <span class="fa fa-dribbble"></span>
                                                 </a>
                                             </li>
                                         </ul>
@@ -405,12 +405,30 @@
 
 <script>
 export default {
-    name: "Single"
+    name: "Single",
+    props: ['id'],
+    data(){
+        return{
+            product:{}
+        }
+    },
+    created(){
+        this.loadProduct()
+    },
+    methods:{
+        async loadProduct(){
+            this.product = await fetch(
+                    `${this.$store.getters.getServerUrl}/product/${this.id}`
+            ).then(response => response.json())
+            console.log(this.product)
+            console.log(this.id)
+        }
+    }
 }
 </script>
 
 <style scoped>
-.li-product{
+.li-product {
     list-style: none;
 }
 </style>

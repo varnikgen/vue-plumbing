@@ -1,22 +1,21 @@
 <template>
     <div id="app">
-        <Nav/>
+        <Navbar/>
         <router-view/>
         <Footer/>
     </div>
 </template>
 
 <style>
-@import "assets/css/reset.css";
+@import "assets/css/bootstrap.min.css";
 @import "assets/css/style.css";
-@import "assets/css/bootstrap.css";
 @import "assets/css/font-awesome.css";
 </style>
 <script>
-import Nav from "@/components/Nav";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default {
-    components: {Nav, Footer}
+    components: {Navbar, Footer}
 }
 </script>
