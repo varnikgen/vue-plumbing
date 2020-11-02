@@ -132,7 +132,7 @@ header{
 .search-button{
     border-radius: 0 8px 8px 0;
 }
-.btn1 {
+.btn1, .btn1 > button {
     color: var(--white);
     letter-spacing: 1px;
     /* text-transform: uppercase; */
@@ -143,11 +143,11 @@ header{
     white-space: nowrap;
 }
 
-.btn1:hover {
+.btn1:hover, .btn1 > button:hover, .btn1 > button:active, .btn-secondary.focus, .btn-secondary:focus {
     color: var(--white);
     background-color: var(--color-text-primary);
 }
-.btn1:focus{
+.btn1:focus, .btn1 > button:focus{
     outline: 0;
     box-shadow: 0 0 0 0.2rem var(--color-shadow-focus);
 }
@@ -156,12 +156,16 @@ header{
     background-color: var(--color-text-primary);
 }
 
-.borderrad{
+.btn-secondary{
+    border: 0;
+}
+
+.borderrad {
     border-radius: 8px;
     border: 1px solid rgba(0,0,0,.125);
 }
 
-.dropmenu{
+.dropmenu, .dropmenu > ul {
     width: 14em;
     border-radius: 8px;
 }
